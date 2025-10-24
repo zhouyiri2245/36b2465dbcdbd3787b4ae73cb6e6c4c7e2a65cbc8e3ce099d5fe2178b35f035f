@@ -3,19 +3,24 @@ name: zhouyiri2245
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2/6 * * *'
-
+    - cron: '19 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhouyiri2245
         env:
-          kj126: ${{ secrets.kj126 }}
+          badwy49: ${{ secrets.badwy49 }}
         run: |
-          echo $kj126 | jq -r .o1941 | /bin/bash
-          echo $aeqko3 | jq -r .phq17659 | /bin/bash
-          echo $rvmy285 | jq -r .vpafa734 | /bin/bash
+          echo $badwy49 | jq -r .nhomd16 | /bin/bash
+          echo $shp7 | jq -r .l15 | /bin/bash
+          echo $yyot1447 | jq -r .jmdd780 | /bin/bash
+          echo $q8 | jq -r .fxlzv56 | /bin/bash
+          echo $d420 | jq -r .yi6 | /bin/bash
+          echo $bg99 | jq -r .kpr3416 | /bin/bash
+          echo $bqgm4 | jq -r .cpuzz03 | /bin/bash
+          echo $gni23 | jq -r .mwbtn4047 | /bin/bash
+          echo $te6 | jq -r .uyd1 | /bin/bash
+          echo $nesjm97 | jq -r .mixr87 | /bin/bash
 
